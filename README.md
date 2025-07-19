@@ -7,7 +7,7 @@ Este é um projeto simples de chatbot com:
 - Lógica de chatbot básica embutida, podendo ser estendida facilmente.
 
 📁 Estrutura atualizada do projeto
-java
+python
 Copy
 Edit
 chatbot_project/
