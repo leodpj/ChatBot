@@ -48,10 +48,10 @@ def clear_history():
     conn.commit()
     conn.close()
 
+# Opcional: manter para exportar com caminho fixo
 def export_to_csv(filename="chat_history.csv"):
     messages = get_all_messages()
-    export_path = os.path.join(DB_DIR, filename)
-    with open(export_path, "w", newline='', encoding="utf-8") as file:
+    with open(filename, "w", newline='', encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Timestamp", "Sender", "Message"])
         writer.writerows(messages)
