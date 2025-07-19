@@ -6,7 +6,16 @@ Este é um projeto simples de chatbot com:
 - **Interface gráfica moderna com PyQt5**, que se comunica com a API.
 - Lógica de chatbot básica embutida, podendo ser estendida facilmente.
 
----
+📁 Estrutura atualizada do projeto
+java
+Copy
+Edit
+chatbot_project/
+├── app.py
+├── gui.py
+├── chatbot_logic.py
+├── database.py         👈 Novo arquivo (manipula SQLite)
+└── chat_history.db     👈 Gerado automaticamente
 
 ## 🚀 Como executar o projeto
 
