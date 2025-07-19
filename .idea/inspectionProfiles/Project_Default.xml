@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="static" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mysql.cursor" />
+          <option value="speech_recognition" />
+          <option value="google.cloud.speech_v1p1beta1" />
+          <option value="backend.inventory.urls.*" />
+          <option value="django.views.CustomTokenObtainPairView" />
+          <option value="backend.stock_management.urls.*" />
+          <option value="inventory.CustomTokenObtainPairView" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
